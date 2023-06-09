@@ -6,3 +6,8 @@ h1 {
   .btn-primary {
     background-color: rgb(57, 177, 247);
   }
+
+  .img-chia {
+    height: 25rem;
+    width: 25rem;
+  }
