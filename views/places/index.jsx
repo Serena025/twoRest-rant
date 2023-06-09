@@ -7,6 +7,10 @@ function home () {
       
       <Def>
          <main>
+         <a href="/places">
+  <button className="btn-primary">Places Page</button>
+</a>
+
     <h1>HOME</h1>
     <div>
       <img src="./images/chiafruit.jpg" alt="Chia Fruit Shake" />
