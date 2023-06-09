@@ -15,6 +15,15 @@ app.get('/', (req, res) => {
   app.get('*', (req, res) => {
     res.render('error404')
   })
+
+  // GET /places
+app.get('/', (req, res) => {
+  let places = []
+  res.render('places/index', { places })
+})
+
+
+
   
 
 app.listen(process.env.PORT)
